@@ -1,0 +1,36 @@
+# =================================================================
+# SECRETS - NEVER COMMIT THESE!
+# This is the most important section.
+# =================================================================
+.env
+backend/.env
+aiagent/.env
+frontend/.env
+backend/db.js
+
+
+# =================================================================
+# DEPENDENCIES - These are huge folders and can be reinstalled
+# =================================================================
+
+# For the Node.js backend and React frontend
+node_modules/
+
+# For the Python AI agent's virtual environment
+aiagent/venv/
+
+
+# =================================================================
+# BUILD ARTIFACTS - This is generated code, not source code
+# =================================================================
+
+# For the React frontend's production build
+frontend/build/
+
+
+# =================================================================
+# OS / EDITOR JUNK FILES - Common system files to ignore
+# =================================================================
+.DS_Store
+.vscode/
+npm-debug.log*
